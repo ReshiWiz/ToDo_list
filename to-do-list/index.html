@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task List</title>
+</head>
+
+<body>
+
+    <main class="app">
+        <section class="greeting">
+            <h2 class="titel">
+                What's the Task
+                <input type="text" id="name" placeholder="Name here">
+            </h2>
+        </section>
+        <section class="create-todo">
+            <h3>CREATE A TODO</h3>
+            <form action="#" id="new-do-form">
+                <input type="text" name="content" id="content" placeholder="e.g. writing a story">
+                <h4>choose the options</h4>
+                <div class="options">
+                    <label for="#">
+                        <input type="radio" name="category" id="category1" value="business">
+                        <span class="bubble business"></span>
+                        <div>Business</div>
+                    </label>
+                    <label for="#">
+                        <input type="radio" name="category" id="category2" value="personal">
+                        <span class="bubble personal"></span>
+                        <div>personal</div>
+                    </label>
+                </div>
+                <input type="submit" value="Add todo" />
+            </form>
+        </section>
+
+        <section class="todo-list">
+            <h3>To do list</h3>
+            <!-- <div class="list" id="list">
+                <div class="todo-item done" >
+                    <label for="#">
+                        <input type="checkbox" />
+                        <div class="bubble" id="business"></div>
+                    </label>
+                    <div class="todo-content">
+                        <input type="text" value="write something..." readonly />
+                    </div>
+
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">delete</button>
+
+                    </div>
+                    <div class="todo-item">
+                        <label for="#">
+                            <input type="checkbox" />
+                            <div class="bubble" id="personal"></div>
+                        </label>
+                        <div class="todo-content">
+                            <input type="text" value="work goals" readonly />
+                        </div>
+
+                        <div class="actions">
+                            <button class="edit">Edit</button> 
+                             <button class="delete">delete</button>
+
+                                     </div>
+                               </div> -->
+                        </div>
+               </section>
+        </main> 
+</body>
+<script src="index.js"></script>
+
+</html>
